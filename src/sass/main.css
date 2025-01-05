@@ -111,6 +111,32 @@ button {
   padding-bottom: 72px;
   background-color: #000;
 }
+.footer__box > .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .footer__box > .container {
+    align-items: first baseline;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .footer__box > .container {
+    text-align: start;
+  }
+}
+.footer__list {
+  display: flex;
+}
+.footer__item {
+  width: 116px;
+  display: flex;
+  flex-direction: column;
+}
 .footer__title {
   color: #FFF;
   font-family: Inter;
@@ -162,6 +188,22 @@ button {
     font-size: 16px;
     line-height: 1.18;
   }
+}
+.footer__addres {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 720px) {
+  .footer__addres {
+    font-size: 16px;
+  }
+}
+.footer .addres {
+  display: flex;
+  flex-direction: column;
 }
 .footer .addres__title {
   color: #fff;

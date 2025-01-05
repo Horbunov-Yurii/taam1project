@@ -3,6 +3,33 @@
     padding-bottom: 72px;
     background-color: $text-color;
 
+    &__box > .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        // row-gap: 60px;
+        
+         @media screen and (min-width: 768px) {
+          align-items:first baseline;
+          flex-direction: row;
+        }
+         @media screen and (min-width: 1264px) {
+          text-align: start;
+        }
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        width: 116px;
+        display: flex;
+        flex-direction: column;
+    }
+
     &__title {
         color: #FFF;
         font-family: Inter;
@@ -71,7 +98,26 @@ line-height: 1.21;
    }
 }
 
+  &__addres {
+    color: $footer-color;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+
+    @media screen and (min-width: 720px) {
+        font-size: 16px;
+       }
+    
+       @media screen and (min-width: 1264px) {
+        
+       }
+  }
+
 .addres {
+
+display: flex;
+flex-direction: column;
 
     &__title {
         color: $footer-color;
