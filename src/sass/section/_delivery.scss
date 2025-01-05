@@ -33,14 +33,17 @@
       width: 100%;
       background-color: $text-color;
       margin-bottom: 40px;
+      margin-left: 14px;
     
     
          @media screen and (min-width: 720px) {
           margin-bottom: 60px;
+          margin-left: 16px;
          }
     
          @media screen and (min-width: 1264px) {
           margin-bottom: 91px;
+          margin-left: 16px;
          }
     }
   
