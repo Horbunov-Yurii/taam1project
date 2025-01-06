@@ -12,7 +12,6 @@
         // row-gap: 60px;
         
          @media screen and (min-width: 768px) {
-          align-items:first baseline;
           flex-direction: row;
         }
          @media screen and (min-width: 1264px) {
@@ -20,17 +19,22 @@
         }
     }
 
+    &__noc {
+        display: flex;
+    }
+
     &__list {
         display: flex;
     }
 
     &__item {
-        width: 116px;
+        padding-right: 96px;
         display: flex;
         flex-direction: column;
     }
 
     &__title {
+        margin-bottom: 18px;
         color: #FFF;
         font-family: Inter;
         font-size: 18px;
@@ -53,6 +57,7 @@ font-family: Inter;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.22;
+margin-bottom: 12px;
 
         @media screen and (min-width: 720px) {
 font-size: 16px;
@@ -115,10 +120,10 @@ line-height: 1.21;
   }
 
 .addres {
-
-display: flex;
-flex-direction: column;
-
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
     &__title {
         color: $footer-color;
 font-family: Inter;

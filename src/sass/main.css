@@ -229,7 +229,6 @@ button {
 }
 @media screen and (min-width: 768px) {
   .footer__box > .container {
-    align-items: first baseline;
     flex-direction: row;
   }
 }
@@ -238,15 +237,19 @@ button {
     text-align: start;
   }
 }
+.footer__noc {
+  display: flex;
+}
 .footer__list {
   display: flex;
 }
 .footer__item {
-  width: 116px;
+  padding-right: 96px;
   display: flex;
   flex-direction: column;
 }
 .footer__title {
+  margin-bottom: 18px;
   color: #FFF;
   font-family: Inter;
   font-size: 18px;
@@ -265,6 +268,7 @@ button {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.22;
+  margin-bottom: 12px;
 }
 @media screen and (min-width: 720px) {
   .footer__link {
@@ -310,7 +314,7 @@ button {
     font-size: 16px;
   }
 }
-.footer .addres {
+.footer .addres__list {
   display: flex;
   flex-direction: column;
 }
