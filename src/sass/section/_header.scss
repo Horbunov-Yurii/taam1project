@@ -1,0 +1,9 @@
+.header__menu{
+    background: none;
+    border: transparent;
+    margin-left: auto;
+  
+    @media screen and (min-width: 752px)  {
+      display: none;
+    }
+}

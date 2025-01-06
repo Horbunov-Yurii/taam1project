@@ -64,6 +64,17 @@ button {
   cursor: pointer;
 }
 
+.header__menu {
+  background: none;
+  border: transparent;
+  margin-left: auto;
+}
+@media screen and (min-width: 752px) {
+  .header__menu {
+    display: none;
+  }
+}
+
 .delivery {
   padding-top: 60px;
   padding-bottom: 60px;

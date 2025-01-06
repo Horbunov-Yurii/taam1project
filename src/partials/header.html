@@ -1,6 +1,11 @@
 <section class="header">
   <div class="header__box container">
     <img src="" alt="logo" />
+<button class="header__menu" type="button" modal-header-open>
+  <svg class="header__burger">
+    <use href="../img/symbol-defs.svg#burger"></use>
+  </svg>
+</button>
     <nav class="header__nav">
       <ul class="header__list">
         <li><a href="#">Anemone</a></li>
@@ -11,5 +16,19 @@
       </ul>
     </nav>
     <a href=""> <img src="" alt="tel" /> </a>
+    <div class="mobail__menu is-hidden" header-modal>
+      <button class="mobail__button" type="button" modal-header-close>
+        <svg class="mobail__clouse">
+          <use href="../img/symbol-defs.svg#clouse"></use>
+        </svg>
+      </button>
+      <ul class="mobail__list">
+        <li class="mobail__item"><a href="#">Anemone</a></li>
+        <li class="mobail__item"><a href="#">About us</a></li>
+        <li class="mobail__item"><a href="#">Store</a></li>
+        <li class="mobail__item"><a href="#">Delivery</a></li>
+        <li class="mobail__item"><a href="#">Blog</a></li>
+      </ul>
+    </div>
   </div>
 </section>
