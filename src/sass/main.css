@@ -263,7 +263,6 @@ button {
 }
 @media screen and (min-width: 768px) {
   .footer__box > .container {
-    align-items: first baseline;
     flex-direction: row;
   }
 }
@@ -272,15 +271,19 @@ button {
     text-align: start;
   }
 }
+.footer__noc {
+  display: flex;
+}
 .footer__list {
   display: flex;
 }
 .footer__item {
-  width: 116px;
+  padding-right: 96px;
   display: flex;
   flex-direction: column;
 }
 .footer__title {
+  margin-bottom: 18px;
   color: #FFF;
   font-family: Inter;
   font-size: 18px;
@@ -299,6 +302,7 @@ button {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.22;
+  margin-bottom: 12px;
 }
 @media screen and (min-width: 720px) {
   .footer__link {
@@ -342,36 +346,5 @@ button {
 @media screen and (min-width: 720px) {
   .footer__addres {
     font-size: 16px;
-  }
-}
-.footer .addres {
-  display: flex;
-  flex-direction: column;
-}
-.footer .addres__title {
-  color: #fff;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: normal;
-}
-@media screen and (min-width: 720px) {
-  .footer .addres__title {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-  }
-}
-.footer .addres__link {
-  color: #fff;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-}
-@media screen and (min-width: 720px) {
-  .footer .addres__link {
-    font-size: 16px;
-    line-height: normal;
   }
 }/*# sourceMappingURL=main.css.map */
