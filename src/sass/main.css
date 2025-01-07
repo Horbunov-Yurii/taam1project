@@ -169,6 +169,107 @@ button {
   }
 }
 
+.about {
+  padding-bottom: 60px;
+}
+.about__box {
+  position: relative;
+}
+.about__title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media screen and (min-width: 752px) {
+  .about__title {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about__title {
+    font-size: 44px;
+  }
+}
+.about__flexline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about__line {
+  width: 162px;
+  border: 0;
+  border-top: 2px solid gray;
+  height: 1px;
+  background: transparent;
+}
+@media screen and (min-width: 752px) {
+  .about__line {
+    width: 610px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about__line {
+    width: 1130px;
+  }
+}
+@media screen and (min-width: 752px) {
+  .about__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 26px;
+  }
+}
+.about__text {
+  padding-top: 18px;
+  width: 288px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+@media screen and (min-width: 752px) {
+  .about__text {
+    font-size: 20px;
+    width: 322px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about__text {
+    font-size: 22px;
+    width: 510px;
+  }
+}
+.about__flower {
+  padding-top: 16px;
+  width: 288px;
+  height: 178px;
+}
+@media screen and (min-width: 752px) {
+  .about__flower {
+    width: 344px;
+    height: 217px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about__flower {
+    width: 632px;
+    height: 344px;
+  }
+}
+
 .delivery {
   padding-top: 60px;
   padding-bottom: 60px;
