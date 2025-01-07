@@ -88,6 +88,57 @@ button {
   align-items: center;
   justify-content: center;
 }
+.hero__text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+@media screen and (min-width: 752px) {
+  .hero__text {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__text {
+    font-size: 32px;
+  }
+}
+.hero__img {
+  padding-right: 8px;
+  padding-left: 14px;
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 752px) {
+  .hero__img {
+    padding-right: 20px;
+    padding-left: 40px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__img {
+    padding-right: 110px;
+    padding-left: 110px;
+    margin-bottom: 100px;
+  }
+}
+.hero__imgbtn {
+  flex-shrink: 0;
+}
+@media screen and (min-width: 752px) {
+  .hero__imgbtn {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .hero__imgbtn {
+    width: 140px;
+    height: 140px;
+  }
+}
 .hero__title {
   align-items: center;
   position: absolute;
@@ -115,57 +166,6 @@ button {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-  }
-}
-.hero__img {
-  padding-right: 8px;
-  padding-left: 14px;
-  margin-bottom: 36px;
-}
-@media screen and (min-width: 752px) {
-  .hero__img {
-    padding-right: 20px;
-    padding-left: 40px;
-    margin-bottom: 100px;
-  }
-}
-@media screen and (min-width: 1264px) {
-  .hero__img {
-    padding-right: 110px;
-    padding-left: 110px;
-    margin-bottom: 100px;
-  }
-}
-.hero__text {
-  color: #000;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.2;
-}
-@media screen and (min-width: 752px) {
-  .hero__text {
-    font-size: 24px;
-  }
-}
-@media screen and (min-width: 1264px) {
-  .hero__text {
-    font-size: 32px;
-  }
-}
-.hero__imgbtn {
-  flex-shrink: 0;
-}
-@media screen and (min-width: 752px) {
-  .hero__imgbtn {
-    width: 100px;
-    height: 100px;
-  }
-}
-@media screen and (min-width: 1264px) {
-  .hero__imgbtn {
-    width: 140px;
-    height: 140px;
   }
 }
 
