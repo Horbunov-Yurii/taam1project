@@ -175,6 +175,24 @@ button {
 .about__box {
   position: relative;
 }
+.about_title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media screen and (min-width: 752px) {
+  .about_title {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about_title {
+    font-size: 44px;
+  }
+}
 .about__flexline {
   display: flex;
   align-items: center;
