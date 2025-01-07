@@ -64,22 +64,24 @@ button {
   cursor: pointer;
 }
 
-.hero__box {
-  position: relative;
+.hero {
   padding-top: 44px;
-  padding-bottom: 36px;
+  padding-bottom: 64px;
 }
 @media screen and (min-width: 752px) {
-  .hero__box {
+  .hero {
     padding-top: 38px;
     padding-bottom: 94px;
   }
 }
 @media screen and (min-width: 1264px) {
-  .hero__box {
+  .hero {
     padding-top: 64px;
     padding-bottom: 93px;
   }
+}
+.hero__box {
+  position: relative;
 }
 .hero__flex {
   display: flex;
@@ -89,7 +91,7 @@ button {
 .hero__title {
   align-items: center;
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   color: #000;
@@ -110,7 +112,7 @@ button {
 @media screen and (min-width: 1264px) {
   .hero__title {
     font-size: 130px;
-    bottom: 5px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -118,17 +120,20 @@ button {
 .hero__img {
   padding-right: 8px;
   padding-left: 14px;
+  margin-bottom: 36px;
 }
 @media screen and (min-width: 752px) {
   .hero__img {
     padding-right: 20px;
     padding-left: 40px;
+    margin-bottom: 100px;
   }
 }
 @media screen and (min-width: 1264px) {
   .hero__img {
     padding-right: 110px;
     padding-left: 110px;
+    margin-bottom: 100px;
   }
 }
 .hero__text {
