@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/project-name/assets/index-187c8512.js"></script>
-    <link rel="stylesheet" href="/project-name/assets/index-e5e740e9.css">
+    <script type="module" crossorigin src="/project-name/assets/index-79b437c2.js"></script>
+    <link rel="stylesheet" href="/project-name/assets/index-2cbbd28b.css">
   </head>
   <body>
     <section class="header">
@@ -105,14 +105,35 @@
 
     <section class="about">
   <div class="about__box container">
-    <h2 class="about_title">ABOUT</h2>
+    <div class="about__flexline">
+      <h2 class="about__title">ABOUT</h2>
+      <p class="about__line"></p>
+    </div>
     <div class="about__flex">
       <p class="about__text">
         We are a minimalistic flower studio. We love people and flowers.
         Therefore, every day we give people the beauty and joy creating stylish
         and modern masterpieces. Every bouquet we create is unique as you are.
       </p>
-      <img src="" alt="about__flower" />
+      <picture>
+        <source
+          src="../img/desktop/about-desktop@1x.webp 1x, ../img/desktop/about-desktop@2x.webp 2x"
+          media="(min-width: 1264px)"
+        />
+        <source
+          src="../img/tablet/about-tablet@1x.webp 1x, ../img/tablet/about-tablet@2x.webp 2x"
+          media="(min-width: 752px)"
+        />
+        <source
+          src="../img/mobile/about-mobile@1x.webp 1x, ../img/mobile/about-mobile@2x.webp 2x"
+          media="(max-width: 751px)"
+        />
+        <img
+          class="about__flower"
+          src="../img/about@1x.jpg"
+          alt="about__flower"
+        />
+      </picture>
     </div>
   </div>
 </section>
