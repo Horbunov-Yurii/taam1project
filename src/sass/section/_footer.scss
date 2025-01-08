@@ -20,6 +20,16 @@
         }
     }
 
+    &__div {
+        position: relative;
+    }
+
+    &__logo {
+        position: absolute;
+        bottom: -72px;
+        left: -24px;
+    }
+
     &__icon {
         fill: $footer-color;
         width: 73px;
@@ -126,5 +136,32 @@ line-height: 1.21;
        @media screen and (min-width: 1264px) {
         
        }
+  }
+
+  &__flex {
+    display: flex;
+width: 29px;
+height: 74px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 18px;
+flex-shrink: 0;
+margin-left: 200px;
+    // position: relative;
+}
+
+&__sociallink {
+//     position: absolute;
+//     top: -72px;
+// left: -60px;
+}
+
+  &__social {
+    fill: $footer-color;
+    width: 28px;
+height: 28px;
+display: flex;
+flex-direction: column;
   }
 }
