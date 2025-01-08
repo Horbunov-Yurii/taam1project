@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/project-name/assets/index-79b437c2.js"></script>
-    <link rel="stylesheet" href="/project-name/assets/index-2cbbd28b.css">
+    <script type="module" crossorigin src="/project-name/assets/index-19f7d707.js"></script>
+    <link rel="stylesheet" href="/project-name/assets/index-fb8dc9f3.css">
   </head>
   <body>
     <section class="header">
@@ -19,7 +19,7 @@
     <img src="" alt="logo" />
 <button class="header__menu" type="button" modal-header-open>
   <svg class="header__burger">
-    <use href="../img/symbol-defs.svg#burger"></use>
+    <use href="/project-name/assets/symbol-defs-0df8e9e2.svg#burger"></use>
   </svg>
 </button>
     <nav class="header__nav">
@@ -35,15 +35,15 @@
     <div class="mobail__menu is-hidden" header-modal>
       <button class="mobail__button" type="button" modal-header-close>
         <svg class="mobail__clouse">
-          <use href="../img/symbol-defs.svg#clouse"></use>
+          <use href="/project-name/assets/symbol-defs-0df8e9e2.svg#clouse"></use>
         </svg>
       </button>
       <ul class="mobail__list">
-        <li class="mobail__item"><a href="#">Anemone</a></li>
-        <li class="mobail__item"><a href="#">About us</a></li>
-        <li class="mobail__item"><a href="#">Store</a></li>
-        <li class="mobail__item"><a href="#">Delivery</a></li>
-        <li class="mobail__item"><a href="#">Blog</a></li>
+        <li class="mobail__item"><a href="#" class="mobail__link">Anemone</a></li>
+        <li class="mobail__item"><a href="#" class="mobail__link">About us</a></li>
+        <li class="mobail__item"><a href="#" class="mobail__link">Store</a></li>
+        <li class="mobail__item"><a href="#" class="mobail__link">Delivery</a></li>
+        <li class="mobail__item"><a href="#" class="mobail__link">Blog</a></li>
       </ul>
     </div>
   </div>
@@ -183,7 +183,7 @@
             <p class="store__text">from $60</p>
         </li>
     </ul>
-    <button type="button" class="store__btn">Order flowers</button>
+    <button type="button" class="store__btn" data-modal-open>Order flowers</button>
 </div>
 </section>
     <section class="delivery">
@@ -283,6 +283,31 @@
     </div>
 </footer>
 
+    <div class="backdrop is-hidden" data-modal>
+<div class="modal modal__bux">
+    <button class="modal__btn" type="button" data-modal-close>
+        <svg class="modal__coluse">
+            <use href="../img/symbol-defs.svg#clouse"></use>
+        </svg>
+    </button>
+    <img src="../img/store1@1x.jpg" alt="flower" class="modal__img">
+    <div class="modal__box">
+        <div class="flex">
+        <h2 class="modal__title">Follow to our newsletter</h2>
+        <p class="modal__text">Be the first  to get exclusive offers and the latest  news on our product directly in your box.</p>
+        <form action="" class="modal__form">
+            <label  class="modal__label">
+                Email
+                <input type="text" placeholder="Your email" class="modal__input">
+            </label>
+            <button class="modal__button" type="submit">Subscribe</button>
+        </form>
+    </div>
+    </div>
+</div>
+</div>
     
+    <script src="./js/mobile.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
