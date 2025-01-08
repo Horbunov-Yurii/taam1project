@@ -506,6 +506,7 @@ button {
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .footer__box > .container {
@@ -517,8 +518,15 @@ button {
     text-align: start;
   }
 }
+.footer__icon {
+  fill: #fff;
+  width: 73px;
+  height: 57px;
+}
 .footer__noc {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer__list {
   display: flex;
