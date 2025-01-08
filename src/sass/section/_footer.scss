@@ -9,6 +9,7 @@
         text-align: center;
         justify-content: center;
         flex-wrap: wrap;
+        align-items: center;
         // row-gap: 60px;
         
          @media screen and (min-width: 768px) {
@@ -19,8 +20,16 @@
         }
     }
 
+    &__icon {
+        fill: $footer-color;
+        width: 73px;
+height: 57px;
+    }
+
     &__noc {
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     &__list {
