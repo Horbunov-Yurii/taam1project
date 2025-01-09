@@ -1,7 +1,7 @@
 .container {
   max-width: 1264px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin: 0 auto;
   outline: 1px solid red;
 }
@@ -13,6 +13,8 @@
 @media screen and (min-width: 752px) {
   .container {
     width: 752px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media screen and (min-width: 1264px) {
@@ -355,14 +357,19 @@ button {
 .store__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 16px;
+  justify-content: center;
+}
+@media screen and (min-width: 752px) {
+  .store__list {
+    gap: 32px;
+  }
 }
 .store__title {
   color: #000;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 8px;
 }
 @media screen and (min-width: 752px) {
   .store__title {
@@ -370,9 +377,36 @@ button {
     font-weight: 700;
   }
 }
+.store__ .store__img {
+  width: 135px;
+  height: 155px;
+}
+@media screen and (min-width: 752px) {
+  .store__ .store__img {
+    width: 344px;
+    height: 399px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .store__ .store__img {
+    width: 600px;
+    height: 542px;
+  }
+}
 .store__box {
   display: flex;
   align-items: center;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 720px) {
+  .store__box {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .store__box {
+    margin-bottom: 91px;
+  }
 }
 .store__line {
   display: flex;
@@ -382,16 +416,6 @@ button {
   height: 1px;
   width: 100%;
   background-color: #000;
-}
-@media screen and (min-width: 720px) {
-  .store__line {
-    margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1264px) {
-  .store__line {
-    margin-bottom: 91px;
-  }
 }
 .store__paragraph {
   color: #000;
@@ -407,6 +431,75 @@ button {
 @media screen and (min-width: 1264px) {
   .store__paragraph {
     font-size: 36px;
+  }
+}
+.store__liner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.store__lines {
+  display: none;
+}
+@media screen and (min-width: 752px) {
+  .store__lines {
+    height: 1px;
+    width: 119px;
+    background-color: #000;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .store__lines {
+    width: 340px;
+  }
+}
+.store__linet {
+  display: none;
+}
+@media screen and (min-width: 752px) {
+  .store__linet {
+    height: 1px;
+    width: 80px;
+    background-color: #000;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .store__linet {
+    width: 298px;
+  }
+}
+.store__linee {
+  display: none;
+}
+@media screen and (min-width: 752px) {
+  .store__linee {
+    height: 1px;
+    width: 71px;
+    background-color: #000;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .store__linee {
+    width: 286px;
+  }
+}
+.store__linei {
+  display: none;
+}
+@media screen and (min-width: 752px) {
+  .store__linei {
+    height: 1px;
+    width: 82px;
+    background-color: #000;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .store__linei {
+    width: 299px;
   }
 }
 .store__text {
@@ -753,69 +846,142 @@ button {
 
 .modal {
   background-color: #fff;
-  width: 860px;
-  height: 528px;
+  width: 272px;
+  height: 380px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media screen and (min-width: 752px) {
+  .modal {
+    width: 588px;
+    height: 644px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .modal {
+    width: 860px;
+    height: 528px;
+  }
+}
 
 .modal__bux {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 40px;
+  flex-direction: column;
+  gap: 18px;
+}
+@media screen and (min-width: 752px) {
+  .modal__bux {
+    gap: 28px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .modal__bux {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+.modal__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal__btn {
   background: transparent;
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 14px;
+  right: 14px;
+}
+@media screen and (min-width: 752px) {
+  .modal__btn {
+    top: 24px;
+    right: 24px;
+  }
 }
 
 .modal__coluse {
-  width: 24px;
-  height: 24px;
   fill: #000;
+  width: 18px;
+  height: 18px;
+}
+@media screen and (min-width: 752px) {
+  .modal__coluse {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .modal__img {
-  width: 428px;
-  height: 528px;
+  width: 272px;
+  height: 121px;
+}
+@media screen and (min-width: 752px) {
+  .modal__img {
+    width: 588px;
+    height: 271px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .modal__img {
+    width: 428px;
+    height: 528px;
+  }
 }
 
 .modal__title {
   color: #000;
   text-align: center;
-  font-size: 28px;
+  font-size: 19px;
   font-weight: 600;
   line-height: 0.5;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
   width: 352px;
+}
+@media screen and (min-width: 752px) {
+  .modal__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
 }
 
 .modal__text {
   color: #5C5C5C;
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.3;
-  margin-bottom: 32px;
-  width: 336px;
+  margin-bottom: 18px;
+  width: 236px;
+}
+@media screen and (min-width: 752px) {
+  .modal__text {
+    font-size: 16px;
+    width: 336px;
+    margin-bottom: 32px;
+  }
 }
 
 .modal__label {
   color: rgba(0, 0, 0, 0.4);
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   line-height: 1.25;
   margin-bottom: 8px;
 }
+@media screen and (min-width: 752px) {
+  .modal__label {
+    font-size: 14px;
+  }
+}
 
 .modal__input {
-  padding: 16px 159px 16px 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
   align-items: center;
   border-radius: 4px;
   border: 1px solid #D7D7D7;
@@ -823,6 +989,19 @@ button {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #D7D7D7;
+  width: 236px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+@media screen and (min-width: 752px) {
+  .modal__input {
+    font-size: 14px;
+    padding-top: 16px;
+    width: 336px;
+    padding-bottom: 16px;
+  }
 }
 
 .modal__button {
@@ -832,8 +1011,14 @@ button {
   font-weight: 600;
   line-height: 1.21;
   background-color: #E86F54;
-  padding: 15px 126px 15px 126px;
+  padding: 10px 82px;
   border-radius: 8px;
   display: flex;
   margin: 0 auto;
+}
+@media screen and (min-width: 752px) {
+  .modal__button {
+    font-size: 18px;
+    padding: 15px 126px;
+  }
 }/*# sourceMappingURL=main.css.map */
