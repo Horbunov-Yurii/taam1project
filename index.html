@@ -10,28 +10,44 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/project-name/assets/index-0e2cad7d.js"></script>
-    <link rel="stylesheet" href="/project-name/assets/index-01f61ecd.css">
+    <script type="module" crossorigin src="/project-name/assets/index-6bcabe87.js"></script>
+    <link rel="stylesheet" href="/project-name/assets/index-6c67fda4.css">
   </head>
   <body>
     <section class="header">
   <div class="header__box container">
-    <img src="" alt="logo" />
-<button class="header__menu" type="button" modal-header-open>
-  <svg class="header__burger">
-    <use href="/project-name/assets/symbol-defs-047669cf.svg#burger"></use>
-  </svg>
-</button>
+    <svg class="header__logo">
+      <use href="/project-name/assets/symbol-defs-047669cf.svg#logo"></use>
+    </svg>
+    <button class="header__menu" type="button" modal-header-open>
+      <svg class="header__burger">
+        <use href="/project-name/assets/symbol-defs-047669cf.svg#burger"></use>
+      </svg>
+    </button>
     <nav class="header__nav">
       <ul class="header__list">
-        <li><a href="#">Anemone</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Delivery</a></li>
-        <li><a href="#">Blog</a></li>
+        <li class="header__item">
+          <a class="header__link" href="">Anemone</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#about">About us</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#store">Store</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#delivery">Delivery</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#blog">Blog</a>
+        </li>
       </ul>
     </nav>
-    <a href=""> <img src="" alt="tel" /> </a>
+    <button class="header__btntel" type="button">
+      <svg class="header__tel">
+        <use href="/project-name/assets/symbol-defs-047669cf.svg#icon-tel"></use>
+      </svg>
+    </button>
     <div class="mobail__menu is-hidden" header-modal>
       <button class="mobail__button" type="button" modal-header-close>
         <svg class="mobail__clouse">
@@ -39,11 +55,21 @@
         </svg>
       </button>
       <ul class="mobail__list">
-        <li class="mobail__item"><a href="#" class="mobail__link">Anemone</a></li>
-        <li class="mobail__item"><a href="#" class="mobail__link">About us</a></li>
-        <li class="mobail__item"><a href="#" class="mobail__link">Store</a></li>
-        <li class="mobail__item"><a href="#" class="mobail__link">Delivery</a></li>
-        <li class="mobail__item"><a href="#" class="mobail__link">Blog</a></li>
+        <li class="mobail__item">
+          <a href="#" class="mobail__link">Anemone</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#about" class="mobail__link">About us</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#store" class="mobail__link">Store</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#delivery" class="mobail__link">Delivery</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#blog" class="mobail__link">Blog</a>
+        </li>
       </ul>
     </div>
   </div>
