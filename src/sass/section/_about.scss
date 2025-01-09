@@ -31,16 +31,16 @@
   &__line {
     width: 162px;
     border: 0;
-    border-top: 2px solid gray;
+    border-top: 1px solid #000;
     height: 1px;
     background: transparent;
 
     @media screen and (min-width: 752px) {
-      width: 610px;
+      width: 540px;
     }
 
     @media screen and (min-width: 1264px) {
-      width: 1130px;
+      width: 1050px;
     }
   }
 
