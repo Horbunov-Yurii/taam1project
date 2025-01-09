@@ -66,6 +66,20 @@ button {
   cursor: pointer;
 }
 
+.header {
+  padding-top: 16px;
+}
+@media screen and (min-width: 752px) {
+  .header {
+    padding-top: 24px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .header {
+    padding-top: 28px;
+  }
+}
+
 @media screen and (min-width: 304px) {
   .header__nav {
     display: none;
@@ -138,6 +152,74 @@ button {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
+}
+
+.header__logo {
+  width: 45px;
+  height: 35px;
+  color: #0e0e0e;
+}
+@media screen and (min-width: 752px) {
+  .header__logo {
+    width: 72px;
+    height: 57px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .header__logo {
+    width: 72px;
+    height: 57px;
+  }
+}
+
+.header__tel {
+  width: 22px;
+  height: 22px;
+  color: #0e0e0e;
+}
+@media screen and (min-width: 752px) {
+  .header__tel {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .header__tel {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 304px) {
+  .header__box {
+    display: flex;
+  }
+}
+
+.header__link {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 752px) {
+  .header__list {
+    gap: 24px;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .header__list {
+    gap: 48px;
+    display: flex;
+  }
 }
 
 .hero {
