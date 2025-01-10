@@ -29,18 +29,21 @@
   }
 
   &__line {
-    width: 162px;
+    width: 100%;
     border: 0;
     border-top: 1px solid #000;
     height: 1px;
     background: transparent;
+    margin-left: 10px;
 
     @media screen and (min-width: 752px) {
-      width: 540px;
+      width: 100%;
+      margin-left: 16px;
     }
 
     @media screen and (min-width: 1264px) {
-      width: 1050px;
+      width: 100%;
+      margin-left: 16px;
     }
   }
 

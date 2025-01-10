@@ -176,17 +176,23 @@ button {
   width: 22px;
   height: 22px;
   color: #0e0e0e;
+  margin-left: 180px;
+  margin-top: 7px;
 }
 @media screen and (min-width: 752px) {
   .header__tel {
     width: 24px;
     height: 24px;
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 1264px) {
   .header__tel {
     width: 28px;
     height: 28px;
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 
@@ -195,9 +201,11 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (min-width: 304px) {
+@media screen and (max-width: 751px) {
   .header__box {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -357,20 +365,23 @@ button {
   justify-content: space-between;
 }
 .about__line {
-  width: 162px;
+  width: 100%;
   border: 0;
   border-top: 1px solid #000;
   height: 1px;
   background: transparent;
+  margin-left: 10px;
 }
 @media screen and (min-width: 752px) {
   .about__line {
-    width: 540px;
+    width: 100%;
+    margin-left: 16px;
   }
 }
 @media screen and (min-width: 1264px) {
   .about__line {
-    width: 1050px;
+    width: 100%;
+    margin-left: 16px;
   }
 }
 @media screen and (min-width: 752px) {
