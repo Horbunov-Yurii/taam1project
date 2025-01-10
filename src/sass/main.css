@@ -3,7 +3,7 @@
   padding-left: 8px;
   padding-right: 8px;
   margin: 0 auto;
-  outline: 1px solid red;
+  outline: 1px solid gray;
 }
 @media screen and (min-width: 304px) {
   .container {
@@ -94,7 +94,6 @@ button {
 .header__menu {
   background-color: transparent;
   border: transparent;
-  margin-left: auto;
   display: flex;
 }
 @media screen and (min-width: 752px) {
@@ -176,36 +175,36 @@ button {
   width: 22px;
   height: 22px;
   color: #0e0e0e;
-  margin-left: 180px;
-  margin-top: 7px;
 }
 @media screen and (min-width: 752px) {
   .header__tel {
     width: 24px;
     height: 24px;
-    margin-left: 0;
-    margin-top: 0;
   }
 }
 @media screen and (min-width: 1264px) {
   .header__tel {
     width: 28px;
     height: 28px;
-    margin-left: 0;
-    margin-top: 0;
   }
+}
+
+.header__btntel {
+  background: transparent;
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .header__box {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 @media screen and (max-width: 751px) {
   .header__box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
 }
 
