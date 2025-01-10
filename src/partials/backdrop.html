@@ -5,7 +5,12 @@
             <use href="../img/symbol-defs.svg#clouse"></use>
         </svg>
     </button>
-    <img src="../img/store1@1x.jpg" alt="flower" class="modal__img">
+    <picture>
+        <source srcset="../img/desktop/subscribe-modal-desktop@1x.webp 1x, ../img/desktop/subscribe-modal-desktop@2x.webp 2x" media="(min-width: 1264px)" >
+        <source srcset="../img/tablet/subscribe-modal-tablet@1x.webp 1x, ../img/tablet/subscribe-modal-tablet@2x.webp 2x" media="(min-width: 752px)">
+        <source src="../img/mobile/subscribe-modal-mobile@1x.webp 1x, ../img/mobile/subscribe-modal-mobile@2x.webp 2x" media="(min-width: 752px)">
+    <img src="./img/subscribe-modal@1x.jpg" alt="flower" class="modal__img">
+</picture>
     <div class="modal__box">
         <h2 class="modal__title">Follow to our newsletter</h2>
         <p class="modal__text">Be the first  to get exclusive offers and the latest  news on our product directly in your box.</p>
