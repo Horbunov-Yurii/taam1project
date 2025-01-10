@@ -21,7 +21,6 @@
 .header__menu {
   background-color: transparent;
   border: transparent;
-  margin-left: auto;
 
   display: flex;
 
@@ -100,32 +99,32 @@
   width: 22px;
   height: 22px;
   color: #0e0e0e;
-  margin-left: 180px;
-  margin-top: 7px;
 
   @media screen and (min-width: 752px) {
     width: 24px;
     height: 24px;
-    margin-left: 0;
-    margin-top: 0;
   }
   @media screen and (min-width: 1264px) {
     width: 28px;
     height: 28px;
-    margin-left: 0;
-    margin-top: 0;
   }
+}
+
+.header__btntel {
+  background: transparent;
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .header__box {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
   @media screen and (max-width: 751px) {
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
 }
 
