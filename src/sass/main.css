@@ -797,7 +797,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 752px) {
   .footer__box > .container {
     flex-direction: row;
   }
@@ -829,7 +829,7 @@ button {
   display: flex;
 }
 .footer__item {
-  padding-right: 96px;
+  margin-right: 96px;
   display: flex;
   flex-direction: column;
 }
@@ -841,7 +841,7 @@ button {
   font-weight: 700;
   line-height: 1.22;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 752px) {
   .footer__title {
     line-height: 1.2;
     font-size: 20px;
@@ -855,7 +855,7 @@ button {
   line-height: 1.22;
   margin-bottom: 12px;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 752px) {
   .footer__link {
     font-size: 16px;
     line-height: 1.18;
@@ -868,7 +868,7 @@ button {
   font-weight: 700;
   line-height: 1.22;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 752px) {
   .footer__title {
     font-size: 20px;
     line-height: 1.2;
@@ -881,7 +881,7 @@ button {
   font-weight: 500;
   line-height: 1.21;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 752px) {
   .footer__text {
     font-size: 16px;
     line-height: 1.18;
@@ -894,7 +894,7 @@ button {
   font-weight: 500;
   line-height: normal;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 752px) {
   .footer__addres {
     font-size: 16px;
   }
