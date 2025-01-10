@@ -736,7 +736,7 @@ button {
   display: flex;
 }
 .footer__item {
-  padding-right: 96px;
+  margin-right: 96px;
   display: flex;
   flex-direction: column;
 }
