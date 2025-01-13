@@ -191,15 +191,20 @@ button {
 
 .header__btntel {
   background: transparent;
-  margin-left: auto;
   align-items: center;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 751px) {
+  .header__btntel {
+    margin-left: auto;
+  }
 }
 
 .header__box {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 @media screen and (max-width: 751px) {
   .header__box {
