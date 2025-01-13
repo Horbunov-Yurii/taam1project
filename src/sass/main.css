@@ -1171,6 +1171,7 @@ button {
   flex-direction: column;
   color: #D7D7D7;
   width: 236px;
+  color: #000;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.2;
