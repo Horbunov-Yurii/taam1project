@@ -28,12 +28,20 @@
         position: absolute;
         bottom: -72px;
         left: -24px;
+
+        @media screen and (max-width: 1264px) {
+            display: none;
+          }
     }
 
     &__icon {
         fill: $footer-color;
         width: 73px;
 height: 57px;
+
+@media screen and (max-width: 1264px) {
+    display: none;
+  }
     }
 
     &__noc {
@@ -47,7 +55,7 @@ height: 57px;
     }
 
     &__item {
-        padding-right: 96px;
+        margin-right: 96px;
         display: flex;
         flex-direction: column;
     }
