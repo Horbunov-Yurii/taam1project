@@ -19,8 +19,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/project-name/assets/index-395067d9.js"></script>
-    <link rel="stylesheet" href="/project-name/assets/index-fe3dbc38.css">
+    <script type="module" crossorigin src="/project-name/assets/index-28bfa2de.js"></script>
+    <link rel="stylesheet" href="/project-name/assets/index-2249b109.css">
   </head>
   <body>
     <section class="header">
@@ -47,7 +47,7 @@
         </li>
       </ul>
     </nav>
-    <button class="header__btntel" type="button">
+    <button class="header__btntel" type="button" dota-modal-open>
       <svg class="header__tel">
         <use href="/project-name/assets/symbol-defs-047669cf.svg#icon-tel"></use>
       </svg>
@@ -455,8 +455,48 @@
 </div>
 </div>
     ENOENT: no such file or directory, open '/home/runner/work/taam1project/taam1project/src/partials/fon.html'
+    <div class="backdrop is-hidden" dota-modal>
+  <div class="headermd headermd__bux">
+    <button class="headermd__btn" type="button" dota-modal-close>
+      <svg class="headermd__coluse">
+        <use href="../img/symbol-defs.svg#clouse"></use>
+      </svg>
+    </button>
+    <div class="headermd__box">
+      <h2 class="headermd__title">Contact us</h2>
+      <p class="headermd__text">
+        If you have any additional questions or you want to clarify something
+        before you make an order please fill in your contact details. We will
+        call you back. .
+      </p>
+      <form action="" class="headermd__form">
+        <label class="headermd__label">
+          Name
+          <input
+            type="text"
+            placeholder="Your name"
+            class="headermd__input__name"
+            required
+          />
+        </label>
+        <label class="headermd__label">
+          Email
+          <input
+            type="text"
+            placeholder="Your email"
+            class="headermd__input"
+            required
+          />
+        </label>
+        <button class="headermd__button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
     
     <script src="./js/mobile.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/headermodal.js"></script>
   </body>
 </html>
