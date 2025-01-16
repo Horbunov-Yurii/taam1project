@@ -1,157 +1,155 @@
 .footer {
-    padding-top: 72px;
-    padding-bottom: 72px;
-    background-color: $text-color;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-color: $text-color;
 
-    &__box > .container {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        // row-gap: 60px;
-        
-         @media screen and (min-width: 768px) {
-          flex-direction: row;
-        }
-         @media screen and (min-width: 1264px) {
-          text-align: start;
-        }
-    }
-
-    // &__div {
-    //     // position: relative;
-    // }
-
-    &__logo {
-        // position: absolute;
-        // bottom: -72px;
-        // left: -24px;
-
-        @media screen and (max-width: 1264px) {
-            display: none;
-          }
-    }
-
-    &__icon {
-        fill: $footer-color;
-        width: 73px;
-height: 57px;
-
-@media screen and (max-width: 1264px) {
-    display: none;
+  &__box > .container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      // row-gap: 60px;
+      
+       @media screen and (min-width: 768px) {
+        flex-direction: row;
+      }
+       @media screen and (min-width: 1264px) {
+        text-align: start;
+      }
   }
-    }
 
-    &__noc {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  // &__div {
+  //     // position: relative;
+  // }
 
-    &__list {
-        display: flex;
-    }
+  &__logo {
+      // position: absolute;
+      // bottom: -72px;
+      // left: -24px;
+      @media screen and (max-width: 1264px) {
+          display: none;
+        }
+  }
 
-    &__item {
-        margin-right: 96px;
-        display: flex;
-        flex-direction: column;
+  &__icon {
+      fill: $footer-color;
+      width: 73px;
+height: 57px;
+@media screen and (max-width: 1264px) {
+  display: none;
+}
+  }
 
-        @media screen and (min-width: 768px) {
-            margin-right: 44px;
-          }
-    }
+  &__noc {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 
-    &__title {
-        margin-bottom: 18px;
-        color: #FFF;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.22;
+  &__list {
+      display: flex;
+  }
 
-   @media screen and (min-width: 720px) {
-    line-height: 1.2;
-    font-size: 20px;
-   }
+  &__item {
+      margin-right: 96px;
+      display: flex;
+      flex-direction: column;
 
-   @media screen and (min-width: 1264px) {
-    
-   }
-    }
+      @media screen and (min-width: 768px) {
+          margin-right: 44px;
+        }
+  }
 
-    &__link {
-        color: $footer-color;
+  &__title {
+      margin-bottom: 18px;
+      color: #FFF;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.22;
+
+ @media screen and (min-width: 720px) {
+  line-height: 1.2;
+  font-size: 20px;
+ }
+
+ @media screen and (min-width: 1264px) {
+  
+ }
+  }
+
+  &__link {
+      color: $footer-color;
 font-family: Inter;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.22;
 margin-bottom: 12px;
 
-        @media screen and (min-width: 720px) {
+      @media screen and (min-width: 720px) {
 font-size: 16px;
 line-height: 1.18;
-           }
-        
-           @media screen and (min-width: 1264px) {
-            
-           }
-    }
+         }
+      
+         @media screen and (min-width: 1264px) {
+          
+         }
+  }
 
-    &__title {
-        color: $footer-color;
+  &__title {
+      color: $footer-color;
 font-family: Inter;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.22;
 
-        @media screen and (min-width: 720px) {
-            font-size: 20px;
-            line-height: 1.2;
-           }
-        
-           @media screen and (min-width: 1264px) {
-            
-           }
-    }
+      @media screen and (min-width: 720px) {
+          font-size: 20px;
+          line-height: 1.2;
+         }
+      
+         @media screen and (min-width: 1264px) {
+          
+         }
+  }
 
-    &__text {
-        color: $footer-color;
+  &__text {
+      color: $footer-color;
 font-family: Inter;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.21;
 
 @media screen and (min-width: 720px) {
-    font-size: 16px;
-    line-height: 1.18;
-   }
+  font-size: 16px;
+  line-height: 1.18;
+ }
 
-   @media screen and (min-width: 1264px) {
-    
-   }
+ @media screen and (min-width: 1264px) {
+  
+ }
 }
 
-  &__addres {
-    color: $footer-color;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
+&__addres {
+  color: $footer-color;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
 
-    @media screen and (min-width: 720px) {
-        font-size: 16px;
-       }
-    
-       @media screen and (min-width: 1264px) {
-        
-       }
-  }
+  @media screen and (min-width: 720px) {
+      font-size: 16px;
+     }
+  
+     @media screen and (min-width: 1264px) {
+      
+     }
+}
 
-  &__flex {
-    display: flex;
+&__flex {
+  display: flex;
 width: 29px;
 height: 74px;
 flex-direction: column;
@@ -159,15 +157,15 @@ justify-content: center;
 align-items: flex-end;
 gap: 18px;
 flex-shrink: 0;
-    // position: relative;
+  // position: relative;
 
-    @media screen and (min-width: 720px) {
-        margin-left: 64px;
-       }
+  @media screen and (min-width: 720px) {
+      margin-left: 64px;
+     }
 
-       @media screen and (min-width: 1264px) {
-        margin-left: 200px;
-       }
+     @media screen and (min-width: 1264px) {
+      margin-left: 200px;
+     }
 }
 
 // &__sociallink {
@@ -176,11 +174,11 @@ flex-shrink: 0;
 // // left: -60px;
 // }
 
-  &__social {
-    fill: $footer-color;
-    width: 28px;
+&__social {
+  fill: $footer-color;
+  width: 28px;
 height: 28px;
 display: flex;
 flex-direction: column;
-  }
+}
 }
