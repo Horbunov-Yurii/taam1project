@@ -21,7 +21,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
-    
+margin-right: 16px;
    
 
     @media screen and (min-width: 752px) {
@@ -69,6 +69,7 @@
     height: 1px;
     width: 100%;
     background-color: $text-color;
+
   }
 
   &__paragraph {
@@ -76,11 +77,12 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.25;
-   
+   margin-top: 12px;
      
 
     @media screen and (min-width: 752px) {
       font-size: 32px;
+      margin-top: 16px;
     }
 
     @media screen and (min-width: 1264px) {
@@ -175,13 +177,16 @@
     font-size: 12px;
     font-weight: 600;
     line-height: 1.21;
+margin-top: 6px;
 
     @media screen and (min-width: 752px) {
       font-size: 24px;
+      margin-top: 8px;
     }
 
     @media screen and (min-width: 1264px) {
       font-size: 28px;
+      margin-top: 4px;
     }
   }
 
@@ -199,10 +204,19 @@
     border-radius: 38px;
     margin-top: 60px;
     display: flex;
+    transition-property: color;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+ 
 
     @media screen and (min-width: 752px) {
       font-size: 28px;
       padding: 16px 32px;
     }
+  }
+
+  &__btn:hover {
+background-color: $hover;
   }
 }

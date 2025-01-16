@@ -31,7 +31,7 @@
   &__line {
     width: 100%;
     border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid $text-color;
     height: 1px;
     background: transparent;
     margin-left: 10px;
@@ -66,8 +66,7 @@
   &__text {
     padding-top: 18px;
     width: 288px;
-    color: #000;
-    font-family: Montserrat;
+    color: $text-color;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
