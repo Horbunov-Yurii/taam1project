@@ -956,14 +956,6 @@ button {
     text-align: start;
   }
 }
-.footer__div {
-  position: relative;
-}
-.footer__logo {
-  position: absolute;
-  bottom: -72px;
-  left: -24px;
-}
 @media screen and (max-width: 1264px) {
   .footer__logo {
     display: none;
@@ -991,6 +983,11 @@ button {
   margin-right: 96px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .footer__item {
+    margin-right: 44px;
+  }
 }
 .footer__title {
   margin-bottom: 18px;
@@ -1067,7 +1064,16 @@ button {
   align-items: flex-end;
   gap: 18px;
   flex-shrink: 0;
-  margin-left: 200px;
+}
+@media screen and (min-width: 720px) {
+  .footer__flex {
+    margin-left: 64px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .footer__flex {
+    margin-left: 200px;
+  }
 }
 .footer__social {
   fill: #fff;
