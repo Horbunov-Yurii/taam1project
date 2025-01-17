@@ -943,27 +943,23 @@ button {
   padding-bottom: 72px;
   background-color: #000;
 }
-.footer__box > .container {
+.footer__box {
   display: flex;
-  flex-direction: column;
-  text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
-  .footer__box > .container {
-    flex-direction: row;
+  .footer__box {
+    justify-content: space-between;
   }
+}
+.footer__div {
+  display: none;
 }
 @media screen and (min-width: 1264px) {
-  .footer__box > .container {
-    text-align: start;
-  }
-}
-@media screen and (max-width: 1263px) {
-  .footer__logo {
-    display: none;
+  .footer__div {
+    display: block;
   }
 }
 .footer__icon {
@@ -978,8 +974,6 @@ button {
 }
 .footer__noc {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 @media screen and (min-width: 304px) {
   .footer__noc {
@@ -988,25 +982,29 @@ button {
 }
 .footer__list {
   display: flex;
-}
-.footer__item {
-  margin-right: 96px;
-  display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 @media screen and (min-width: 1264px) {
-  .footer__item {
-    margin-right: 96px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer__item {
-    margin-right: 44px;
+  .footer__list {
+    gap: 96px;
   }
 }
 @media screen and (min-width: 304px) {
-  .footer__item {
-    margin-right: 44px;
+  .footer__list {
+    gap: 44px;
+  }
+}
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+.footer__item:last-child a:nth-child(3) {
+  width: 111px;
+  word-break: break-all;
+}
+@media screen and (min-width: 752px) {
+  .footer__item:last-child a:nth-child(3) {
+    word-break: keep-all;
   }
 }
 .footer__title {
@@ -1033,6 +1031,20 @@ button {
 }
 @media screen and (min-width: 720px) {
   .footer__link {
+    font-size: 16px;
+    line-height: 1.18;
+  }
+}
+.footer__linka {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.22;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 720px) {
+  .footer__linka {
     font-size: 16px;
     line-height: 1.18;
   }
@@ -1077,22 +1089,17 @@ button {
 }
 .footer__flex {
   display: flex;
-  width: 29px;
-  height: 74px;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   gap: 18px;
-  flex-shrink: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 752px) {
   .footer__flex {
-    margin-left: 64px;
-  }
-}
-@media screen and (min-width: 1264px) {
-  .footer__flex {
-    margin-left: 200px;
+    flex-direction: column;
+    position: static;
   }
 }
 .footer__social {

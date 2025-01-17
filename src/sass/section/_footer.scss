@@ -3,34 +3,25 @@
   padding-bottom: 72px;
   background-color: $text-color;
 
-  &__box > .container {
+  &__box {
       display: flex;
-      flex-direction: column;
-      text-align: center;
       justify-content: center;
       flex-wrap: wrap;
-      align-items: center;
-      // row-gap: 60px;
-      
+      position: relative;
+
        @media screen and (min-width: 768px) {
-        flex-direction: row;
+        justify-content: space-between;
       }
        @media screen and (min-width: 1264px) {
-        text-align: start;
+       
       }
   }
 
-  // &__div {
-  //     // position: relative;
-  // }
-
-  &__logo {
-      // position: absolute;
-      // bottom: -72px;
-      // left: -24px;
-      @media screen and (max-width: 1263px) {
-          display: none;
-        }
+  &__div {
+    display: none;
+    @media screen and (min-width: 1264px) {
+      display: block;
+    }
   }
 
   &__icon {
@@ -44,8 +35,8 @@ height: 57px;
 
   &__noc {
       display: flex;
-      align-items: center;
-      justify-content: center;
+      // align-items: center;
+      // justify-content: center;
 
       @media screen and (min-width: 304px) {
         flex-wrap: wrap;
@@ -54,23 +45,43 @@ height: 57px;
 
   &__list {
       display: flex;
-  }
-
-  &__item {
-      margin-right: 96px;
-      display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
 
       @media screen and (min-width: 1264px) {
-        margin-right: 96px;
+        gap: 96px;
       }
 
       @media screen and (min-width: 768px) {
-          margin-right: 44px;
+          
         }
 
         @media screen and (min-width: 304px) {
-          margin-right: 44px;
+          gap: 44px;
+        }
+  }
+
+  &__item {
+      // margin-right: 96px;
+      display: flex;
+      flex-direction: column;
+      &:last-child a:nth-child(3){
+        width: 111px;
+        word-break: break-all;
+        @media screen and (min-width: 752px) {
+          word-break: keep-all;
+        }
+      }
+
+      @media screen and (min-width: 1264px) {
+        // margin-right: 96px;
+      }
+
+      @media screen and (min-width: 768px) {
+          // margin-right: 44px;
+        }
+
+        @media screen and (min-width: 304px) {
+          // margin-right: 44px;
         }
   }
 
@@ -109,6 +120,25 @@ line-height: 1.18;
           
          }
   }
+
+  &__linka {
+    color: $footer-color;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.22;
+margin-bottom: 12px;
+
+    @media screen and (min-width: 720px) {
+font-size: 16px;
+line-height: 1.18;
+       }
+    
+       @media screen and (min-width: 1264px) {
+        
+       }
+}
+
 
   &__title {
       color: $footer-color;
@@ -162,21 +192,20 @@ line-height: 1.21;
 
 &__flex {
   display: flex;
-width: 29px;
-height: 74px;
-flex-direction: column;
 justify-content: center;
 align-items: flex-end;
 gap: 18px;
-flex-shrink: 0;
-  // position: relative;
+position: absolute;
+top: 55%;
+left: 50%;
 
-  @media screen and (min-width: 720px) {
-      margin-left: 64px;
+  @media screen and (min-width: 752px) {
+    flex-direction: column;
+    position: static;
      }
 
      @media screen and (min-width: 1264px) {
-      margin-left: 200px;
+      // margin-left: 200px;
      }
 }
 
