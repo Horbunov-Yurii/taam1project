@@ -1,4 +1,4 @@
-import "./js/headermodal";
-import "./js/mobile";
-import "./js/modal";
+// import "./js/headermodal";
+// import "./js/mobile";
+// import "./js/modal";
 
