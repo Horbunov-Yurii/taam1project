@@ -927,12 +927,17 @@ button {
   border-radius: 38px;
   margin-top: 60px;
   display: flex;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 752px) {
   .blog__sub {
     font-size: 28px;
     padding: 16px 32px;
   }
+}
+.blog__sub:hover, .blog__sub:focus {
+  background-color: #e25b41;
 }
 
 .footer {
