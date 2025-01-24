@@ -84,8 +84,6 @@
     font-size: 52px;
     font-weight: 400;
     line-height: 1.2;
-    animation: slideFromTop 2s ease forwards;
-    opacity: 0;
 
     @media screen and (min-width: 752px) {
       font-size: 110px;
@@ -97,7 +95,7 @@
     @media screen and (min-width: 1264px) {
       font-size: 130px;
       bottom: 0;
-      left: 23%;
+      left: 50%;
       transform: translateX(-50%);
     }
   }
@@ -121,17 +119,6 @@
   }
   to {
     transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideFromTop {
-  from {
-    transform: translateY(-1000%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
     opacity: 1;
   }
 }
