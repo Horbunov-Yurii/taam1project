@@ -16,6 +16,14 @@
     }
   }
 
+  &__item {
+    flex-basis: calc((100% - 16px) / 2);
+
+    @media screen and (min-width: 752px) {
+      flex-basis: calc((100% - 32px) / 2);
+    }
+  }
+
   &__title {
     color: $text-color;
     font-size: 24px;

@@ -58,6 +58,7 @@ h6 {
 img {
   display: block;
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -502,6 +503,14 @@ button {
 @media screen and (min-width: 752px) {
   .store__list {
     gap: 32px;
+  }
+}
+.store__item {
+  flex-basis: calc((100% - 16px) / 2);
+}
+@media screen and (min-width: 752px) {
+  .store__item {
+    flex-basis: calc((100% - 32px) / 2);
   }
 }
 .store__title {
