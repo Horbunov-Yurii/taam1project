@@ -1,11 +1,11 @@
 {
-    "name": "taam1projec",
+    "name": "taam1project",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/taam1projec/",
+    "build": "vite build --base=/taam1project/",
     "preview": "vite preview"
     },
     "devDependencies": {
