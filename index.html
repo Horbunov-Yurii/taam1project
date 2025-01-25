@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/taam1project/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script type="module" crossorigin src="/taam1project/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/taam1project/assets/index-9e41f527.css">
+  </head>
+  <body>
+    <section class="header">
+  <div class="header__box container">
+    <svg class="header__logo">
+      <use href="/taam1project/assets/symbol-defs-047669cf.svg#logo"></use>
+    </svg>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="header__link" href="">Anemone</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#about">About us</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#store">Store</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#delivery">Delivery</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#blog">Blog</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header__btntel" type="button" dota-modal-open>
+      <svg class="header__tel">
+        <use href="/taam1project/assets/symbol-defs-047669cf.svg#icon-tel"></use>
+      </svg>
+    </button>
+    <div class="mobail__menu is-hidden" header-modal>
+      <button class="mobail__button" type="button" modal-header-close>
+        <svg class="mobail__clouse">
+          <use href="/taam1project/assets/symbol-defs-047669cf.svg#clouse"></use>
+        </svg>
+      </button>
+      <ul class="mobail__list">
+        <li class="mobail__item">
+          <a href="#" class="mobail__link">Anemone</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#about" class="mobail__link">About us</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#store" class="mobail__link">Store</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#delivery" class="mobail__link">Delivery</a>
+        </li>
+        <li class="mobail__item">
+          <a href="#blog" class="mobail__link">Blog</a>
+        </li>
+      </ul>
+    </div>
+    <button class="header__menu" type="button" modal-header-open>
+      <svg class="header__burger">
+        <use href="/taam1project/assets/symbol-defs-047669cf.svg#burger"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
+    <section class="hero">
+  <div class="hero__box container">
+    <div class="hero__flex">
+      <p class="hero__text">flower <br />studio</p>
+      <picture>
+        <source
+          src="../img/desktop/hero-desktop@1x.webp 1x, ../img/desktop/hero-desktop@2x.webp 2x"
+          media="(min-width: 1264px)"
+        />
+        <source
+          srcset="
+            ../img/tablet/hero-tablet@1x.webp 1x,
+            ../img/tablet/hero-tablet@2x.webp 2x
+          "
+          media="(min-width: 752px)"
+        />
+        <source
+          src="../img/mobile/hero-mobile@1x.webp 1x, ../img/mobile/hero-mobile@2x.webp 2x"
+          media="(max-width: 751px)"
+        />
+        <img class="hero__img" src="../img/hero-desktop@1x.jpg" alt="flower" />
+      </picture>
+      <picture>
+        <source
+          srcset="
+            ../img/desktop/hero-btn-desktop@1x.webp 1x,
+            ../img/desktop/hero-btn-desktop@2x.webp 2x
+          "
+          media="(min-width: 1264px)"
+        />
+        <source
+          srcset="
+            ../img/tablet/hero-btn-tablet@1x.webp 1x,
+            ../img/tablet/hero-btn-tablet@2x.webp 2x
+          "
+          media="(min-width: 752px)"
+        />
+        <source
+          srcset="
+            ../img/mobile/hero-btn-mobile@1x.webp 1x,
+            ../img/mobile/hero-btn-mobile@2x.webp 2x
+          "
+          media="(max-width: 751px)"
+        />
+        <img class="hero__imgbtn" src="" alt="herosvg" />
+      </picture>
+    </div>
+    <h3 class="hero__title">ANEMONE</h3>
+  </div>
+</section>
+
+    <section id="about" class="about">
+  <div class="about__box container">
+    <div class="about__flexline">
+      <h2 class="about__title">ABOUT</h2>
+      <p class="about__line"></p>
+    </div>
+    <div class="about__flex">
+      <p class="about__text">
+        We are a minimalistic flower studio. We love people and flowers.
+        Therefore, every day we give people the beauty and joy creating stylish
+        and modern masterpieces. Every bouquet we create is unique as you are.
+      </p>
+      <picture>
+        <source
+          srcset="
+            ../img/desktop/about-desktop@1x.webp 1x,
+            ../img/desktop/about-desktop@2x.webp 2x
+          "
+          media="(min-width: 1264px)"
+        />
+        <source
+          srcset="
+            ../img/tablet/about-tablet@1x.webp 1x,
+            ../img/tablet/about-tablet@2x.webp 2x
+          "
+          media="(min-width: 752px)"
+        />
+        <source
+          srcset="
+            ../img/mobile/about-mobile@1x.webp 1x,
+            ../img/mobile/about-mobile@2x.webp 2x
+          "
+          media="(max-width: 751px)"
+        />
+        <img class="about__flower" src="" alt="about__flower" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+    <section id="store" class="store">
+  <div class="container">
+    <div class="store__box">
+      <h2 class="store__title">STORE</h2>
+      <div class="store__line"></div>
+    </div>
+    <ul class="store__list" >
+      <li class="store__item" data-aos="flip-left">
+        <picture>
+          <source
+            srcset="/taam1project/assets/store1-desktop@1x-977523ad.webp 1x, /taam1project/assets/store1-desktop@2x-619e5f05.webp 2x"
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="/taam1project/assets/store1-tablet@1x-82523ec6.webp 1x, /taam1project/assets/store1-tablet@2x-5a23d40f.webp 2x"
+            media="(min-width: 752px)"
+          />
+          <source
+            srcset="/taam1project/assets/store1-mobile@1x-c1443267.webp 1x, /taam1project/assets/store1-mobile@2x-618bb366.webp 2x"
+            media="(max-width: 752px)"
+          />
+          <img
+            src="/taam1project/assets/store1-desktop@1x-977523ad.webp"
+            alt="a bouquet of flowers"
+            class="store__img"
+          />
+        </picture>
+        <div class="store__liner">
+          <h2 class="store__paragraph">compliments</h2>
+          <div class="store__lines"></div>
+        </div>
+        <p class="store__text">from $15</p>
+      </li>
+      <li class="store__item" data-aos="flip-right">
+        <picture>
+          <source
+            srcset="/taam1project/assets/store2-desktop@1x-f22b1125.webp 1x, /taam1project/assets/store2-desktop@2x-882e963f.webp 2x"
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="/taam1project/assets/store2-tablet@1x-7b2faba4.webp 1x, /taam1project/assets/store2-tablet@2x-441ca9af.webp 2x"
+            media="(min-width: 752px)"
+          />
+          <source
+            srcset="data:image/webp;base64,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 1x, /taam1project/assets/store2-mobile@2x-c2c0cdbb.webp 2x"
+            media="(max-width: 752px)"
+          />
+          <img
+            src="/taam1project/assets/store2-desktop@1x-f22b1125.webp"
+            alt="a bouquet of flowers"
+            class="store__img"
+          />
+        </picture>
+        <div class="store__liner">
+          <h2 class="store__paragraph">bouquets size S</h2>
+          <div class="store__linet"></div>
+        </div>
+        <p class="store__text">from $25</p>
+      </li>
+      <li class="store__item" data-aos="flip-left">
+        <picture>
+          <source
+            srcset="/taam1project/assets/store3-desktop@1x-f8484f1d.webp 1x, /taam1project/assets/store3-desktop@2x-8408d801.webp 2x"
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="/taam1project/assets/store3-tablet@1x-7edc4756.webp 1x, /taam1project/assets/store3-tablet@2x-ab15f3f9.webp 2x"
+            media="(min-width: 752px)"
+          />
+          <source
+            srcset="data:image/webp;base64,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 1x, /taam1project/assets/store3-mobile@2x-b926fbd6.webp 2x"
+            media="(max-width: 752px)"
+          />
+          <img
+            src="/taam1project/assets/store3-desktop@1x-f8484f1d.webp"
+            alt="a bouquet of flowers"
+            class="store__img"
+          />
+        </picture>
+        <div class="store__liner">
+          <h2 class="store__paragraph">bouquets size M</h2>
+          <div class="store__linee"></div>
+        </div>
+        <p class="store__text">from $45</p>
+      </li>
+      <li class="store__item" data-aos="flip-right">
+        <picture>
+          <source
+            srcset="/taam1project/assets/store4-desktop@1x-d4c1cca3.webp 1x, /taam1project/assets/store4-desktop@2x-c91212ed.webp 2x"
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="/taam1project/assets/store4-tablet@1x-c9e442e9.webp 1x, /taam1project/assets/store4-tablet@2x-dfc3265e.webp 2x"
+            media="(min-width: 752px)"
+          />
+          <source
+            srcset="/taam1project/assets/store4-mobile@1x-27be3e12.webp 1x, /taam1project/assets/store4-mobile@2x-77bca420.webp 2x"
+            media="(max-width: 752px)"
+          />
+          <img
+            src="/taam1project/assets/store4-desktop@1x-d4c1cca3.webp"
+            alt="a bouquet of flowers"
+            class="store__img"
+          />
+        </picture>
+        <div class="store__liner">
+          <h2 class="store__paragraph">bouquets size L</h2>
+          <div class="store__linei"></div>
+        </div>
+        <p class="store__text">from $60</p>
+      </li>
+    </ul>
+    <button type="button" class="store__btn"  data-aos="zoom-in-right">
+      Order flowers
+    </button>
+  </div>
+</section>
+
+    <section id="delivery" class="delivery">
+  <div class="container">
+    <div class="delivery__box">
+      <h2 class="delivery__title">DELIVERY</h2>
+      <div class="delivery__line"></div>
+    </div>
+    <ul class="delivery__list">
+      <li class="delivery__item" data-aos="fade-right">
+        <div class="delivery__bex">
+          <div class="bix">
+            <div class="delivery__border">1</div>
+          </div>
+          <p class="delivery__text">
+            Choose your bouquet and make an order on website
+          </p>
+        </div>
+      </li>
+      <li class="delivery__item" data-aos="fade-left">
+        <div class="delivery__bex">
+          <div class="bix">
+            <div class="delivery__border">2</div>
+          </div>
+          <p class="delivery__text">
+            Wait for the call to clarify the details of the order. You can pay
+            online or to the courier
+          </p>
+        </div>
+      </li>
+      <li class="delivery__item" data-aos="fade-right">
+        <div class="delivery__bex">
+          <div class="bix">
+            <div class="delivery__border">3</div>
+          </div>
+          <p class="delivery__text">
+            Wait for the delivery at the selected time or pick up the order from
+            the store
+          </p>
+        </div>
+      </li>
+      <li class="delivery__item" data-aos="fade-left">
+        <div class="delivery__bex">
+          <div class="bix">
+            <div class="delivery__border">4</div>
+          </div>
+          <p class="delivery__text">Make someone happy or enjoy yourself</p>
+        </div>
+      </li>
+    </ul>
+    <div class="delivery__fon"></div>
+  </div>
+</section>
+
+    <section id="blog" class="blog">
+  <div class="container">
+    <div class="blog__flexline">
+      <h3 class="blog__title">BLOG</h3>
+      <p class="blog__line"></p>
+    </div>
+    <ul class="blog__list">
+      <li class="blog__item">
+        <picture data-aos="flip-up">
+          <source
+            srcset="
+              ../img/desktop/blog-left-desktop@1x.webp 1x,
+              ../img/desktop/blog-left-desktop@2x.webp 2x
+            "
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="
+              ../img/tablet/blog-left-tablet@1x.webp 1x,
+              ../img/tablet/blog-left-tablet@2x.webp 2x
+            "
+            media="(min-width: 720px)"
+          />
+          <source
+            srcset="
+              ../img/mobile/blog-left-mobile@1x.webp 1x,
+              ../img/mobile/blog-left-mobile@2x.webp 2x
+            "
+            media="(max-width: 719px)"
+          />
+          <img src="../img/blog-left@1x.jpg" alt="left" class="blog__space" />
+        </picture>
+        <picture data-aos="zoom-in-up">
+          <source
+            srcset="
+              ../img/desktop/blog-center-desktop@1x.webp 1x,
+              ../img/desktop/blog-center-desktop@2x.webp 2x
+            "
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="
+              ../img/tablet/blog-center-tablet@1x.webp 1x,
+              ../img/tablet/blog-center-tablet@2x.webp 2x
+            "
+            media="(min-width: 720px)"
+          />
+          <source
+            srcset="
+              ../img/mobile/blog-center-mobile@1x.webp 1x,
+              ../img/mobile/blog-center-mobile@2x.webp 2x
+            "
+            media="(max-width: 719px)"
+          />
+          <img
+            src="../img/blog-center@1x.jpg"
+            alt="center"
+            class="blog__center"
+          />
+        </picture>
+        <picture data-aos="flip-down">
+          <source
+            srcset="
+              ../img/desktop/blog-right-desktop@1x.webp 1x,
+              ../img/desktop/blog-right-desktop@2x.webp 2x
+            "
+            media="(min-width: 1264px)"
+          />
+          <source
+            srcset="
+              ../img/tablet/blog-right-tablet@1x.webp 1x,
+              ../img/tablet/blog-right-tablet@2x.webp 2x
+            "
+            media="(min-width: 720px)"
+          />
+          <source
+            srcset="
+              ../img/mobile/blog-right-mobile@1x.webp 1x,
+              ../img/mobile/blog-right-mobile@2x.webp 2x
+            "
+            media="(max-width: 719px)"
+          />
+          <img src="../img/blog-right@1x.jpg" alt="right" class="blog__right" />
+        </picture>
+      </li>
+      <li class="blog__news">
+        <p
+          class="blog__follow"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          Follow to our newsletter
+        </p>
+        <button
+          class="blog__sub"
+          data-modal-open
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
+          Subscribe
+        </button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <footer class="footer">
+    <div class="container footer__box">
+        <div class="footer__div">
+            <a class="footer__logo" href="./index.html">
+                <svg class="footer__icon">
+                    <use href="/taam1project/assets/symbol-defs-047669cf.svg#logo"></use>
+                </svg>
+            </a>
+            </div>
+        <div class="footer__noc">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <h3 class="footer__title">Navigation</h3>
+                    <a href="#" class="footer__link">Anemone</a>
+                    <a href="#" class="footer__link">About us</a>
+                    <a href="#" class="footer__link">Store</a>
+                    <a href="#" class="footer__link">Delivery</a>
+                </li>
+                <li class="footer__item">
+                    <h3 class="footer__title">Opening times</h3>
+                    <p class="footer__text">Every day <br> 9:00 - 22:00</p>
+                </li>
+                <li class="footer__item">
+                    <h3 class="footer__title">Contacts</h3>
+                    <a class="footer__link" href="tel:+380631234567">+38 063 123 45 67</a>
+                    <a class="footer__link" href="mailto:anemonestudio@example.com">anemonestudio@example.com</a>
+                        <a class="footer__addres"
+                        href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%A0%D0%B5%D0%B9%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F,+11,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4512576,30.5099485,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ce5bddfc5105:0x5d4781b191539b53!8m2!3d50.4512576!4d30.5125288!16s%2Fg%2F11vjlztsr7?hl=ru&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">м.
+                        Reitarska Street,<br> 11 Kyiv, Ukraine</a>
+                </li>   
+            </ul>
+        </div>
+        <div class="footer__flex">
+            <a class="footer__sociallink" href="#">
+                <svg class="footer__social">
+                    <use href="../img/symbol-defs.svg#facebook"></use>
+                </svg>
+            </a>
+            <a class="footer__sociallink" href="#">
+                <svg class="footer__social">
+                    <use href="../img/symbol-defs.svg#instagram"></use>
+                </svg> 
+            </a>
+        </div>
+        </div>
+    </footer>
+    
+    <div class="backdrop is-hidden" data-modal>
+<div class="modal modal__bux">
+    <button class="modal__btn" type="button" data-modal-close>
+        <svg class="modal__coluse">
+            <use href="../img/symbol-defs.svg#clouse"></use>
+        </svg>
+    </button>
+    <picture>
+        <source srcset="./img/desktop/subscribe-modal-desktop@1x.webp 1x, ../img/desktop/subscribe-modal-desktop@2x.webp 2x" media="(min-width: 1264px)" >
+        <source srcset="./img/tablet/subscribe-modal-tablet@1x.webp 1x, ../img/tablet/subscribe-modal-tablet@2x.webp 2x" media="(min-width: 752px)">
+        <source srcset="./img/mobile/subscribe-modal-mobile@1x.webp 1x, ../img/mobile/subscribe-modal-mobile@2x.webp 2x" media="(min-width: 752px)">
+        <img src="/taam1project/assets/subscribe-modal@1x-eaa63eda.jpg" alt="flower" class="modal__img">
+</picture>
+    <div class="modal__box">
+        <h2 class="modal__title">Follow to our newsletter</h2>
+        <p class="modal__text">Be the first  to get exclusive offers and the latest  news on our product directly in your box.</p>
+        <form action="" class="modal__form">
+            <label  class="modal__label">
+                Email
+                <input type="text" placeholder="Your email" class="modal__input" required>
+            </label>
+            <button class="modal__button" type="submit">Subscribe</button>
+        </form>
+    </div>
+</div>
+</div>
+    <div class="backdrop is-hidden" dota-modal>
+  <div class="headermd headermd__bux">
+    <button class="headermd__btn" type="button" dota-modal-close>
+      <svg class="headermd__coluse">
+        <use href="../img/symbol-defs.svg#clouse"></use>
+      </svg>
+    </button>
+    <div class="headermd__box">
+      <h2 class="headermd__title">Contact us</h2>
+      <p class="headermd__text">
+        If you have any additional questions or you want to clarify something
+        before you make an order please fill in your contact details. We will
+        call you back. .
+      </p>
+      <form action="" class="headermd__form">
+        <label class="headermd__label">
+          Name
+          <input
+            type="text"
+            placeholder="Your name"
+            class="headermd__input__name"
+            required
+          />
+        </label>
+        <label class="headermd__label">
+          Email
+          <input
+            type="text"
+            placeholder="Your email"
+            class="headermd__input"
+            required
+          />
+        </label>
+        <button class="headermd__button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+    
+    
+    
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
